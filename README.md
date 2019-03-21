@@ -11,10 +11,12 @@ Speech recognition has become an essential part of a system with the fast growin
 
 
 PROBLEM STATEMENT
+
 The aim of the work is to provide a voice based system to fetch the data using synonym table. Speech to SQL query generator is a process by which the user query in natural language will be converted to a SQL query based on the speech query entered. Any person is not expected to know the SQL language, and hence the system would help in connecting to the backend database.
 
 
 CONTRIBUTION
+
 The contribution towards the work is adding synonym table which helps the user to speak in his/her own language and then converting it into the SQL key.
 
 
@@ -50,15 +52,25 @@ where {table}(s) {column}(s) {Comparator}{value}? Here {column}(s) and {table}(s
 
 The Algorithm is as follows,
 Step 1. Accept the input from the user in the form of speech.
+
 Step 2. The speech is converted into text by using speech recognition engine.
+
 Step 3. The correct form of the statement is saved and other statements are discarded.
+
 Step 4. Divide the input query and store it in a list, i.e. tokenising the input query statement.
+
 Step 5. Remove the unnecessary token from the list like, the, an, etc.
+
 Step 6. Map the tokens with the table name and attributes of the database.
+
 Step 7. Now find the tables which will contain the pair of ((attribute which do not belong to the table in the query), (other attributes present in the table in the query)).
+
 Step 8. For a natural join, find out the common attribute and form the inner query. Then form the outer query according to the different conditions. Merge both of them and generate the final query.
+
 Step 9. For a simple query, generate the final query by checking the all conditions.
+
 Step 10. Obtain the conditions of the where clause and other clause such as comparators, aggregate function and relational operators, add these to the final query.
+
 Step 11. Print the final query on command prompt and display results on UI.
 
 
