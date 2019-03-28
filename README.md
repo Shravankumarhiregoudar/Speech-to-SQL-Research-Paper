@@ -1,26 +1,26 @@
 # Speech-to-SQL
 
-ABSTARCT
+# ABSTARCT
 
 Recent developments in speech recognition system and natural language processing have given rise to a new generation of powerful voice-based interfaces. In this proposed system, user interacts with the system through a voice based user interface to fetch the desired results. To make the system smooth and interactive, the query is based on casual human speech/conversation. The spoken query undergoes many steps to arrive at the final results. It includes synonym table which is used to convert the spoken query into SQL keywords. This proposed work will give the good results for simple and complex queries. The accuracy of the system depends on the complexity of the database. This system will show that the voice based user interface is an effective means of querying and fetching data from the stored database.
 
 
-INTRODUCTION
+# INTRODUCTION
 
 Speech recognition has become an essential part of a system with the fast growing technology. These interactive applications should be able to process the human communicating language queries. Natural Language Processing is the field of study that focuses on the interactions between human language and computers. It sits at the intersection of computer science, artificial intelligence, and computational. The spoken query undergoes many steps to arrive at the final results. It includes synonym table which is used to convert the spoken query into SQL keywords. This proposed work will give the results for simple and complex queries. The accuracy of the system depends on the complexity of the database. This system will show that the voice based user interface is an effective means of querying and fetching data from the stored database.
 
 
-PROBLEM STATEMENT
+# PROBLEM STATEMENT
 
 The aim of the work is to provide a voice based system to fetch the data using synonym table. Speech to SQL query generator is a process by which the user query in natural language will be converted to a SQL query based on the speech query entered. Any person is not expected to know the SQL language, and hence the system would help in connecting to the backend database.
 
 
-CONTRIBUTION
+# CONTRIBUTION
 
 The contribution towards the work is adding synonym table which helps the user to speak in his/her own language and then converting it into the SQL key.
 
 
-INTRODUCTION TO NLP
+# INTRODUCTION TO NLP
 
 The field of study that focuses on the interactions between human language and computers is called Natural Language Processing, or NLP. It sits at the intersection of computer science, artificial intelligence, and computational.
 Steps involved in the process,
@@ -38,7 +38,7 @@ Semantic
 Semantics focuses on the study of meaning of the words present in the natural language query and the relation between signifiers like words, signs, phrases and what do they actually stand for. A field of semantics called Linguistic semantics deals with the study of meaning which interprets human expression through language. This level deals with checking the different conditions like where clause, relational operators, aggregate functions, natural join and build the SQL query accordingly. The final SQL query after checking all the conditions is ―select title from course.
 
 
-PROPOSED METHOD
+# PROPOSED METHOD
 
 The proposed model is composed of two modules those are Query intent and refine intent, which allows user to communicate with the system. The primary module that is typically used whenever a user starts a new conversation with our system is the query module. The input for this module is called a query request. 
 The Query Intent is the primary intent that is typically used whenever a user starts a new conversation with our system. The input for this intent is called a query request. Basic Query Requests: In its current version, this system supports simple non-aggregation and aggregation query requests using one of the aggregation types (COUNT, SUM, AVG, MAX and MIN). 
@@ -74,6 +74,6 @@ Step 10. Obtain the conditions of the where clause and other clause such as comp
 Step 11. Print the final query on command prompt and display results on UI.
 
 
-CONCLUSION AND FUTURE WORK
+# CONCLUSION AND FUTURE WORK
 
 In our method we have used the voice based interface to help all kind of users and allow them to access data. User doesn't need to know the detailed structure of database; we find tables with the help of attributes specified in the query. System has been checked for single tables and multiple tables and it gives correct result if the input speech query is correctly pronounced and the attributes are mapped with the database. System is also database independent i.e. it can be configured automatically for different databases. Areas of improvement can be working on improving the grammar in order to ensure that even the more general query is being executed. Further we can work on DML like insertion, deletion of tables and attributes and DDL like create, alter of tables.
